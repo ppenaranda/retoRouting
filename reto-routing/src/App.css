@@ -1,0 +1,58 @@
+/* Detail Page */
+.detail-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-image {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Centering the list of pets */
+.container {
+  padding: 20px;
+}
+
+h2 {
+  color: #343a40;
+}
+
+/* Centrar la lista de mascotas */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre tarjetas */
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 14rem;
+}
+
+.card-title a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-title a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.card-text {
+  color: #6c757d;
+}
